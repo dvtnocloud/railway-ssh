@@ -15,7 +15,7 @@ RUN apt update && apt install -y \
 # -----------------------------
 # Create user 'user' with sudo
 # -----------------------------
-RUN useradd -m root && echo "root:Tai18022009@" | chpasswd && adduser root sudo
+RUN useradd -m dvt && echo "dvt:Tai18022009@" | chpasswd && adduser dvt sudo
 
 # -----------------------------
 # Configure SSH
